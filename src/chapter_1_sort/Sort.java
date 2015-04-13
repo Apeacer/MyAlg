@@ -5,7 +5,7 @@ import javax.swing.text.Highlighter.Highlight;
 /**
  * auto		:魏宁
  * date		：2015.3.14
- * discribe	:用于插入排序
+ * discribe	:用于各种排序
  */
 public class Sort 
 {
