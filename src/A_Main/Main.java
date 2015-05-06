@@ -24,11 +24,29 @@ public class Main
 		
 		//数论
 		NumberTheory nTheory=new NumberTheory();
-		int arr[]=nTheory.PrimeNumber(100);
-		for(int s: arr)
-		System.out.print(s+" ");
-		System.out.println();
-		//2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+//		int arr[]=nTheory.PrimeNumber(100);
+//		for(int s: arr)
+//		{
+//			System.out.print(s+" ");
+//		}
+//		System.out.println();
+//		for(int s: arr)
+//		{
+//			if(nTheory.isPrimeNumber(s))
+//				System.out.print(1+" ");
+//			else 
+//			{
+//				System.out.print(0+" ");				
+//			}
+//		}
+//		System.out.println();
+////		2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+		int a1=370; int b1=100;
+		System.out.println(nTheory.GreatestCommonDivisor_E(a1,b1));
+		System.out.println(nTheory.GreatestCommonDivisor_S(a1,b1));
+		System.out.println(nTheory.LeastCommonMultiple(a1, a1));
+		
+		nTheory.PrimeFactor(128);
 	
 	}
 	

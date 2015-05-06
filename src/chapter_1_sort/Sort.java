@@ -3,9 +3,9 @@ package chapter_1_sort;
 import javax.swing.text.Highlighter.Highlight;
 
 /**
- * auto		:魏宁
- * date		：2015.3.14
- * discribe	:用于各种排序
+ * auto		魏宁
+ * date		2015.3.14
+ * discribe	用于各种排序
  */
 public class Sort 
 {
@@ -15,7 +15,7 @@ public class Sort
 	
 	/**
 	 * discribe: 构造方法传入数组
-	 * @param : array   被排数组
+	 * @param array   被排数组
 	 */
 	public Sort(int[] array)
 	{
@@ -24,7 +24,7 @@ public class Sort
 	}
 	
 	/**
-	 * discribe:将两个书交换
+	 * discribe: 将两个书交换
 	 * @param a
 	 * @param b
 	 */
@@ -37,7 +37,7 @@ public class Sort
 	
 	/**
 	 * discribe: 选择排序
-	 * @param : array   被排数组
+	 * @param array   被排数组
 	 */
 	public void selectSort()
 	{
@@ -53,7 +53,7 @@ public class Sort
 	
 	/**
 	 * discribe: 冒泡排序
-	 * @param : array   被排数组
+	 * @param array   被排数组
 	 */
 	public void bubbleSort()
 	{
@@ -70,7 +70,7 @@ public class Sort
 	
 	/**
 	 * discribe: 插入排序
-	 * @param : array   被排数组
+	 * @param array   被排数组
 	 */
 	public void insertSort()
 	{	
@@ -86,7 +86,7 @@ public class Sort
 	
 	/**
 	 * discribe: 快速排序
-	 * @param : array   被排数组
+	 * @param array   被排数组
 	 */
 	public void quickSort()
 	{
