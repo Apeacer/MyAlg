@@ -11,15 +11,16 @@ public class Main
 	public static void main (String[] arg)
 	{
 		//排序
-//		Sort sort=new Sort(lists);
+		Sort sort=new Sort(lists);
 //		sort.selectSort();
 //		sort.bubbleSort();
 //		sort.insertSort();
 //		sort.quickSort();
-//		for(int a: lists)
-//		{
-//			System.out.print(a+" ");
-//		}System.out.println();
+		sort.HeapSort();
+		for(int a: lists)
+		{
+			System.out.print(a+" ");
+		}System.out.println();
 
 		
 		//数论
@@ -41,12 +42,12 @@ public class Main
 //		}
 //		System.out.println();
 ////		2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
-		int a1=370; int b1=100;
-		System.out.println(nTheory.GreatestCommonDivisor_E(a1,b1));
-		System.out.println(nTheory.GreatestCommonDivisor_S(a1,b1));
-		System.out.println(nTheory.LeastCommonMultiple(a1, a1));
-		
-		nTheory.PrimeFactor(128);
+//		int a1=370; int b1=100;
+//		System.out.println(nTheory.GreatestCommonDivisor_E(a1,b1));
+//		System.out.println(nTheory.GreatestCommonDivisor_S(a1,b1));
+//		System.out.println(nTheory.LeastCommonMultiple(a1, a1));
+//		
+//		nTheory.PrimeFactor(128);
 	
 	}
 	
